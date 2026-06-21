@@ -1,0 +1,537 @@
+{
+  "Version": 1,
+  "Hash": "MIlHPAZ/nXHAxvJ4EvtJ/EB4ewsgNlQBvnwUMfm5fvA=",
+  "Source": "BiampMatrixController",
+  "BasePath": "_content/BiampMatrixController",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BiampMatrixController\\wwwroot",
+      "Source": "BiampMatrixController",
+      "ContentRoot": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\wwwroot\\",
+      "BasePath": "_content/BiampMatrixController",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\wwwroot\\app.js",
+      "SourceId": "BiampMatrixController",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\wwwroot\\",
+      "BasePath": "_content/BiampMatrixController",
+      "RelativePath": "app#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9itscwcwsx",
+      "Integrity": "YVDJ6LixwaoWh/JM+clzKjzIqkhihWN0Udfs5pUeGRU=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\wwwroot\\index.html",
+      "SourceId": "BiampMatrixController",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\wwwroot\\",
+      "BasePath": "_content/BiampMatrixController",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "012qgr3yyz",
+      "Integrity": "xJibzMFNvLQXVcnMH9FQ7CskY9YR0YpEPSQQ+VrA+Dc=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\wwwroot\\labels.html",
+      "SourceId": "BiampMatrixController",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\wwwroot\\",
+      "BasePath": "_content/BiampMatrixController",
+      "RelativePath": "labels#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nod9q0sq14",
+      "Integrity": "h0eqVCpiNmY17HniSxz9hH8aLQ26wGFLCbJm5G/5MHM=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\labels.html"
+    },
+    {
+      "Identity": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\wwwroot\\labels.js",
+      "SourceId": "BiampMatrixController",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\wwwroot\\",
+      "BasePath": "_content/BiampMatrixController",
+      "RelativePath": "labels#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sn2k1gd1l7",
+      "Integrity": "eDv1s/TTwRQIL2VCGmqqyvn6MC8g0ulq8w5UvuMt8HU=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\labels.js"
+    },
+    {
+      "Identity": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\wwwroot\\style.css",
+      "SourceId": "BiampMatrixController",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\wwwroot\\",
+      "BasePath": "_content/BiampMatrixController",
+      "RelativePath": "style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o1i1b7788h",
+      "Integrity": "ZBeD3T1IXaDcYvPcaqkep3IYncbHyfDIQkjIAwXLtGY=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.9itscwcwsx.js",
+      "AssetFile": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\wwwroot\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2711"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YVDJ6LixwaoWh/JM+clzKjzIqkhihWN0Udfs5pUeGRU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Jun 2026 19:22:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9itscwcwsx"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YVDJ6LixwaoWh/JM+clzKjzIqkhihWN0Udfs5pUeGRU="
+        }
+      ]
+    },
+    {
+      "Route": "app.js",
+      "AssetFile": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\wwwroot\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2711"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YVDJ6LixwaoWh/JM+clzKjzIqkhihWN0Udfs5pUeGRU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Jun 2026 19:22:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YVDJ6LixwaoWh/JM+clzKjzIqkhihWN0Udfs5pUeGRU="
+        }
+      ]
+    },
+    {
+      "Route": "index.012qgr3yyz.html",
+      "AssetFile": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xJibzMFNvLQXVcnMH9FQ7CskY9YR0YpEPSQQ+VrA+Dc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Jun 2026 19:47:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "012qgr3yyz"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xJibzMFNvLQXVcnMH9FQ7CskY9YR0YpEPSQQ+VrA+Dc="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xJibzMFNvLQXVcnMH9FQ7CskY9YR0YpEPSQQ+VrA+Dc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Jun 2026 19:47:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xJibzMFNvLQXVcnMH9FQ7CskY9YR0YpEPSQQ+VrA+Dc="
+        }
+      ]
+    },
+    {
+      "Route": "labels.html",
+      "AssetFile": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\wwwroot\\labels.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h0eqVCpiNmY17HniSxz9hH8aLQ26wGFLCbJm5G/5MHM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Jun 2026 19:56:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h0eqVCpiNmY17HniSxz9hH8aLQ26wGFLCbJm5G/5MHM="
+        }
+      ]
+    },
+    {
+      "Route": "labels.js",
+      "AssetFile": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\wwwroot\\labels.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2369"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eDv1s/TTwRQIL2VCGmqqyvn6MC8g0ulq8w5UvuMt8HU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Jun 2026 19:56:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eDv1s/TTwRQIL2VCGmqqyvn6MC8g0ulq8w5UvuMt8HU="
+        }
+      ]
+    },
+    {
+      "Route": "labels.nod9q0sq14.html",
+      "AssetFile": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\wwwroot\\labels.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h0eqVCpiNmY17HniSxz9hH8aLQ26wGFLCbJm5G/5MHM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Jun 2026 19:56:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nod9q0sq14"
+        },
+        {
+          "Name": "label",
+          "Value": "labels.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h0eqVCpiNmY17HniSxz9hH8aLQ26wGFLCbJm5G/5MHM="
+        }
+      ]
+    },
+    {
+      "Route": "labels.sn2k1gd1l7.js",
+      "AssetFile": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\wwwroot\\labels.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2369"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eDv1s/TTwRQIL2VCGmqqyvn6MC8g0ulq8w5UvuMt8HU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Jun 2026 19:56:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sn2k1gd1l7"
+        },
+        {
+          "Name": "label",
+          "Value": "labels.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eDv1s/TTwRQIL2VCGmqqyvn6MC8g0ulq8w5UvuMt8HU="
+        }
+      ]
+    },
+    {
+      "Route": "style.css",
+      "AssetFile": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\wwwroot\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "522"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZBeD3T1IXaDcYvPcaqkep3IYncbHyfDIQkjIAwXLtGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Jun 2026 19:56:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZBeD3T1IXaDcYvPcaqkep3IYncbHyfDIQkjIAwXLtGY="
+        }
+      ]
+    },
+    {
+      "Route": "style.o1i1b7788h.css",
+      "AssetFile": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\wwwroot\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "522"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZBeD3T1IXaDcYvPcaqkep3IYncbHyfDIQkjIAwXLtGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Jun 2026 19:56:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o1i1b7788h"
+        },
+        {
+          "Name": "label",
+          "Value": "style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZBeD3T1IXaDcYvPcaqkep3IYncbHyfDIQkjIAwXLtGY="
+        }
+      ]
+    }
+  ]
+}

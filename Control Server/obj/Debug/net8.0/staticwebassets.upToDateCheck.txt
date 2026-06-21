@@ -1,0 +1,5 @@
+wwwroot\app.js
+wwwroot\index.html
+wwwroot\labels.html
+wwwroot\labels.js
+wwwroot\style.css

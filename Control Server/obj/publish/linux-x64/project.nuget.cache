@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "nzTvnq2niTA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\BiampMatrixController.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tj\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.13\\microsoft.net.illink.tasks.8.0.13.nupkg.sha512",
+    "C:\\Users\\tj\\.nuget\\packages\\ssh.net\\2024.1.0\\ssh.net.2024.1.0.nupkg.sha512",
+    "C:\\Users\\tj\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\8.0.13\\microsoft.netcore.app.runtime.linux-x64.8.0.13.nupkg.sha512",
+    "C:\\Users\\tj\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\8.0.13\\microsoft.aspnetcore.app.runtime.linux-x64.8.0.13.nupkg.sha512",
+    "C:\\Users\\tj\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\8.0.13\\microsoft.netcore.app.host.linux-x64.8.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

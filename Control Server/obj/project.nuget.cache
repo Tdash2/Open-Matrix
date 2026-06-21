@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "b+aCy9eZmSg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tj\\Desktop\\Biamp-Tesira-Intercom-Matrix\\Control Server\\BiampMatrixController.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tj\\.nuget\\packages\\ssh.net\\2024.1.0\\ssh.net.2024.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

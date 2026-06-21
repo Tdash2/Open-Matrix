@@ -1,0 +1,3 @@
+C:\Users\tj\Desktop\Tesira Intercom\obj\Release\net8.0\linux-x64\PubTmp\Out\appsettings.json
+C:\Users\tj\Desktop\Tesira Intercom\obj\Release\net8.0\linux-x64\PubTmp\Out\BiampMatrixController.pdb
+C:\Users\tj\Desktop\Tesira Intercom\obj\Release\net8.0\linux-x64\PubTmp\Out\BiampMatrixController
