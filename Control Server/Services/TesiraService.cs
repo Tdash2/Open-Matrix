@@ -1,4 +1,4 @@
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 using BiampMatrixController.Models;
 using Renci.SshNet;
 
@@ -16,6 +16,7 @@ public class TesiraService
     public List<InputPort> Inputs { get; private set; } = [];
     public List<OutputPort> Outputs { get; private set; } = [];
 
+
     public TesiraService(
         IConfiguration config,
         PartyLineConfigService partyConfig)
@@ -26,10 +27,12 @@ public class TesiraService
 
     public async Task InitializeAsync()
     {
+        Console.WriteLine("Connecting To DSP...");
         await ConnectAsync();
-
+        Console.WriteLine("Syncing Form DSP...");
         await LoadOutputsAsync();
         await LoadInputsAsync();
+        Console.WriteLine("Synced From DSP Compleate.");
     }
 
     private async Task ConnectAsync()
@@ -78,34 +81,68 @@ public class TesiraService
             }
         });
     }
+    private async Task ReconnectAsync()
+    {
+        await Task.Run(() =>
+        {
+            try
+            {
+                _shell?.Dispose();
+                _client?.Dispose();
+            }
+            catch { }
+
+            _shell = null;
+            _client = null;
+
+            ConnectAsync().Wait();
+        });
+    }
+    private bool IsConnected()
+    {
+        return _client != null && _client.IsConnected;
+    }
 
     public async Task<string> ExecuteAsync(string command)
     {
-        return await Task.Run(() =>
+        return await Task.Run(async () =>
         {
             lock (_lock)
             {
-                if (_shell == null)
-                    throw new Exception("SSH not connected");
-
-                _shell.WriteLine(command);
-
-                var start = DateTime.UtcNow;
-
-                while ((DateTime.UtcNow - start).TotalSeconds < 5)
+                for (int attempt = 0; attempt < 2; attempt++)
                 {
-                    if (_shell.DataAvailable)
+                    try
                     {
-                        var response = _shell.Read();
+                        if (!IsConnected())
+                            ReconnectAsync().Wait();
 
-                        if (response.Contains("+OK"))
-                            return response;
+                        _shell!.WriteLine(command);
+
+                        var start = DateTime.UtcNow;
+
+                        while ((DateTime.UtcNow - start).TotalSeconds < 5)
+                        {
+                            if (_shell.DataAvailable)
+                            {
+                                var response = _shell.Read();
+
+                                if (response.Contains("+OK"))
+                                    return response;
+                            }
+
+                            Thread.Sleep(20);
+                        }
+
+                        throw new TimeoutException(command);
                     }
-
-                    Thread.Sleep(20);
+                    catch
+                    {
+                        // force reconnect and retry once
+                        ReconnectAsync().Wait();
+                    }
                 }
 
-                throw new TimeoutException(command);
+                throw new Exception($"Command failed after reconnect: {command}");
             }
         });
     }
@@ -274,6 +311,23 @@ public class TesiraService
 
         await ApplyPartyLine(pl);
     }
+    public async Task RebuildMatrix()
+    {
+        // Step 1: clear entire matrix
+        foreach (var input in Inputs)
+            foreach (var output in Outputs)
+                await SetCrosspointAsync(input.Number, output.Number, false);
+
+        // Step 2: rebuild from ALL PartyLines
+        foreach (var pl in _config.PartyLines)
+        {
+            foreach (var input in pl.Inputs)
+                foreach (var output in pl.Outputs)
+                {
+                    await SetCrosspointAsync(input, output, true);
+                }
+        }
+    }
     public async Task AddOutput(int plId, int output)
 {
     var pl = _config.PartyLines.First(x => x.Id == plId);
@@ -320,5 +374,26 @@ public class TesiraService
         }
 
         _config.Save();
+    }
+    public async Task RenamePartyLine(int plId, string newName)
+    {
+        var pl = _config.PartyLines.FirstOrDefault(x => x.Id == plId)
+            ?? throw new Exception($"PartyLine {plId} not found");
+
+        pl.Name = newName;
+
+        _config.Save();
+    }
+    public async Task DeletePartyLine(int plId)
+    {
+        var pl = _config.PartyLines.FirstOrDefault(x => x.Id == plId)
+            ?? throw new Exception($"PartyLine {plId} not found");
+
+        _config.PartyLines.Remove(pl);
+
+        _config.Save();
+
+        // IMPORTANT: rebuild DSP state after removal
+        await RebuildMatrix();
     }
 }

@@ -1,51 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Labels</title>
+    <title>Intercom Matrix Labels</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <nav>
-        <a href="/">Crosspoints</a>
-        <a href="/labels.html">Labels</a>
-        <a href="/partylines.html">PartyLines</a>
-    </nav>
-
-
-    <h1>Port Labels</h1>
-
-    <div class="grid">
-
-        <div class="panel">
-            <h2>Outputs</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Name</th>
-                    </tr>
-                </thead>
-                <tbody id="outputs"></tbody>
-            </table>
-        </div>
-
-        <div class="panel">
-            <h2>Inputs</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Name</th>
-                    </tr>
-                </thead>
-                <tbody id="inputs"></tbody>
-            </table>
-        </div>
-
+    <div id="busyOverlay" style="
+    display:none;
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.4);
+    z-index:9999;
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+    align-items:center;
+    justify-content:center;
+">
+        Applying Party Line Changes...
     </div>
 
-    <script src="labels.js"></script>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="/" style="padding: 0; border: none;">
+                <img src="Open Matrix Transparent.png" alt="Crosspoints Logo">
+            </a>
+        </div>
 
+        <div class="nav-links">
+            <a href="/">Crosspoints</a>
+            <a href="/labels.html">Labels</a>
+            <a href="/partylines.html">PartyLines</a>
+        </div>
+    </nav>
+    <div class="body2">
+
+        <h1>Port Labels</h1>
+
+        <div class="grid">
+
+            <div class="panel">
+                <h2>Outputs</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                        </tr>
+                    </thead>
+                    <tbody id="outputs"></tbody>
+                </table>
+            </div>
+
+            <div class="panel">
+                <h2>Inputs</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                        </tr>
+                    </thead>
+                    <tbody id="inputs"></tbody>
+                </table>
+            </div>
+
+        </div>
+
+        <script src="labels.js"></script>
+    </div>
 </body>
 </html>

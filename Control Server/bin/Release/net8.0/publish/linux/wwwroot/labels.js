@@ -1,4 +1,5 @@
 async function loadLabels() {
+    showBusy("Loading Labels");
     const response =
         await fetch('/api/labels');
 
@@ -7,6 +8,18 @@ async function loadLabels() {
 
     renderOutputs(data.outputs);
     renderInputs(data.inputs);
+    hideBusy();
+}
+
+function showBusy(message = "Applying Party Line Changes...") {
+    const overlay = document.getElementById("busyOverlay");
+
+    overlay.innerText = message;
+    overlay.style.display = "flex";
+}
+
+function hideBusy() {
+    document.getElementById("busyOverlay").style.display = "none";
 }
 
 function renderOutputs(outputs) {
@@ -72,6 +85,7 @@ function renderInputs(inputs) {
 }
 
 async function saveOutput(number) {
+    showBusy("Saving Labels");
     const el =
         document.getElementById(`out-${number}`);
 
@@ -87,9 +101,11 @@ async function saveOutput(number) {
                 name: el.value
             })
         });
+    hideBusy();
 }
 
 async function saveInput(number) {
+    showBusy("Saving Labels");
     const el =
         document.getElementById(`in-${number}`);
 
@@ -105,6 +121,7 @@ async function saveInput(number) {
                 name: el.value
             })
         });
+    hideBusy();
 }
 
 loadLabels();

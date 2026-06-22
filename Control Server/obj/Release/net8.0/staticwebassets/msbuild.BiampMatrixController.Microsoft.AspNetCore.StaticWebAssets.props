@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9itscwcwsx</Fingerprint>
-      <Integrity>YVDJ6LixwaoWh/JM+clzKjzIqkhihWN0Udfs5pUeGRU=</Integrity>
+      <Fingerprint>ibdyzki7kh</Fingerprint>
+      <Integrity>EtXGNaKSWKitv+Ls3b7Ivw/D/5zzqjkp3RciUvC1DbE=</Integrity>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.js'))</OriginalItemSpec>
@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>012qgr3yyz</Fingerprint>
-      <Integrity>xJibzMFNvLQXVcnMH9FQ7CskY9YR0YpEPSQQ+VrA+Dc=</Integrity>
+      <Fingerprint>vkg61wg72l</Fingerprint>
+      <Integrity>b3r9U7zeFxgZ16QWHbPOLYWX9boJHlWooRfGQTC7jKY=</Integrity>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>nod9q0sq14</Fingerprint>
-      <Integrity>h0eqVCpiNmY17HniSxz9hH8aLQ26wGFLCbJm5G/5MHM=</Integrity>
+      <Fingerprint>5ud0hhc3ir</Fingerprint>
+      <Integrity>86TZuVMtrVLZExrbGWibL0Uvwlb6LB2y3udhsIIG1kY=</Integrity>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\labels.html'))</OriginalItemSpec>
@@ -66,11 +66,65 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>sn2k1gd1l7</Fingerprint>
-      <Integrity>eDv1s/TTwRQIL2VCGmqqyvn6MC8g0ulq8w5UvuMt8HU=</Integrity>
+      <Fingerprint>9d0bp1bero</Fingerprint>
+      <Integrity>nWP7vZEFoz9EUbnF+r8pVZeWnWSVuxOhB0eLbhKqeIs=</Integrity>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\labels.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Open Matrix Transparent.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>BiampMatrixController</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BiampMatrixController</BasePath>
+      <RelativePath>Open Matrix Transparent.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>euruwzttja</Fingerprint>
+      <Integrity>doTrFKZ1IwIsVNauaZ269pRw9yhVjs7Mu6EVAiQxH6s=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Open Matrix Transparent.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\partylines.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>BiampMatrixController</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BiampMatrixController</BasePath>
+      <RelativePath>partylines.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>44q4jnr6ul</Fingerprint>
+      <Integrity>NDxdtBLDkXUyD1v9wDZCprX/lMOZFLGBsAJQl+MxwSY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\partylines.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\partylines.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>BiampMatrixController</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BiampMatrixController</BasePath>
+      <RelativePath>partylines.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ipxxlhk8zx</Fingerprint>
+      <Integrity>5oGd+Z6MfPkud3utb79bTkS46KvT0bGBfSYZErnjLyM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\partylines.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\style.css'))">
       <SourceType>Package</SourceType>
@@ -84,8 +138,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>o1i1b7788h</Fingerprint>
-      <Integrity>ZBeD3T1IXaDcYvPcaqkep3IYncbHyfDIQkjIAwXLtGY=</Integrity>
+      <Fingerprint>w6w11wj8aa</Fingerprint>
+      <Integrity>OKpRnmCP8MJqNU4yrTwL/kdLRLhr33e+gLc8Yv+B9qk=</Integrity>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\style.css'))</OriginalItemSpec>

@@ -1,7 +1,0 @@
-wwwroot\app.js
-wwwroot\index.html
-wwwroot\labels.html
-wwwroot\labels.js
-wwwroot\partylines.html
-wwwroot\partylines.js
-wwwroot\style.css

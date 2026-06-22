@@ -135,11 +135,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\BiampMatrixController.csproj",
+      "projectUniqueName": "C:\\Users\\tj\\Desktop\\Biamp-Tesira-Intercom-Matrix\\Control Server\\BiampMatrixController.csproj",
       "projectName": "BiampMatrixController",
-      "projectPath": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\BiampMatrixController.csproj",
+      "projectPath": "C:\\Users\\tj\\Desktop\\Biamp-Tesira-Intercom-Matrix\\Control Server\\BiampMatrixController.csproj",
       "packagesPath": "C:\\Users\\tj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tj\\Desktop\\Tesira Intercom\\obj\\publish\\linux-x64\\",
+      "outputPath": "C:\\Users\\tj\\Desktop\\Biamp-Tesira-Intercom-Matrix\\Control Server\\obj\\publish\\linux-x64\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

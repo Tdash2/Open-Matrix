@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BiampMatrixController")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+816707b2ec05fe9700ed1b13b18efcd91423fa23")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c33516a31f9851f9f98083d76e381a8806458a89")]
 [assembly: System.Reflection.AssemblyProductAttribute("BiampMatrixController")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BiampMatrixController")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

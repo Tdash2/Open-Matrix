@@ -7,8 +7,32 @@
       "RelativeMoniker": "D:0:0:{E2DF8CFE-E7EF-222D-1025-AE8D759D22AB}|BiampMatrixController.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E2DF8CFE-E7EF-222D-1025-AE8D759D22AB}|BiampMatrixController.csproj|c:\\users\\tj\\desktop\\biamp-tesira-intercom-matrix\\control server\\wwwroot\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E2DF8CFE-E7EF-222D-1025-AE8D759D22AB}|BiampMatrixController.csproj|solutionrelative:wwwroot\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2DF8CFE-E7EF-222D-1025-AE8D759D22AB}|BiampMatrixController.csproj|c:\\users\\tj\\desktop\\biamp-tesira-intercom-matrix\\control server\\wwwroot\\partylines.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2DF8CFE-E7EF-222D-1025-AE8D759D22AB}|BiampMatrixController.csproj|solutionrelative:wwwroot\\partylines.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2DF8CFE-E7EF-222D-1025-AE8D759D22AB}|BiampMatrixController.csproj|c:\\users\\tj\\desktop\\biamp-tesira-intercom-matrix\\control server\\wwwroot\\labels.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2DF8CFE-E7EF-222D-1025-AE8D759D22AB}|BiampMatrixController.csproj|solutionrelative:wwwroot\\labels.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2DF8CFE-E7EF-222D-1025-AE8D759D22AB}|BiampMatrixController.csproj|c:\\users\\tj\\desktop\\biamp-tesira-intercom-matrix\\control server\\services\\tesiraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2DF8CFE-E7EF-222D-1025-AE8D759D22AB}|BiampMatrixController.csproj|solutionrelative:services\\tesiraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E2DF8CFE-E7EF-222D-1025-AE8D759D22AB}|BiampMatrixController.csproj|c:\\users\\tj\\desktop\\biamp-tesira-intercom-matrix\\control server\\wwwroot\\partylines.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{E2DF8CFE-E7EF-222D-1025-AE8D759D22AB}|BiampMatrixController.csproj|solutionrelative:wwwroot\\partylines.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2DF8CFE-E7EF-222D-1025-AE8D759D22AB}|BiampMatrixController.csproj|c:\\users\\tj\\desktop\\biamp-tesira-intercom-matrix\\control server\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2DF8CFE-E7EF-222D-1025-AE8D759D22AB}|BiampMatrixController.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2DF8CFE-E7EF-222D-1025-AE8D759D22AB}|BiampMatrixController.csproj|c:\\users\\tj\\desktop\\biamp-tesira-intercom-matrix\\control server\\wwwroot\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E2DF8CFE-E7EF-222D-1025-AE8D759D22AB}|BiampMatrixController.csproj|solutionrelative:wwwroot\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +42,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "app.js",
+              "DocumentMoniker": "C:\\Users\\tj\\Desktop\\Biamp-Tesira-Intercom-Matrix\\Control Server\\wwwroot\\app.js",
+              "RelativeDocumentMoniker": "wwwroot\\app.js",
+              "ToolTip": "C:\\Users\\tj\\Desktop\\Biamp-Tesira-Intercom-Matrix\\Control Server\\wwwroot\\app.js",
+              "RelativeToolTip": "wwwroot\\app.js",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAgwFIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-22T07:08:11.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\tj\\Desktop\\Biamp-Tesira-Intercom-Matrix\\Control Server\\wwwroot\\style.css",
+              "RelativeDocumentMoniker": "wwwroot\\style.css",
+              "ToolTip": "C:\\Users\\tj\\Desktop\\Biamp-Tesira-Intercom-Matrix\\Control Server\\wwwroot\\style.css",
+              "RelativeToolTip": "wwwroot\\style.css",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAUwE4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-06-22T04:58:49.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "partylines.js",
               "DocumentMoniker": "C:\\Users\\tj\\Desktop\\Biamp-Tesira-Intercom-Matrix\\Control Server\\wwwroot\\partylines.js",
               "RelativeDocumentMoniker": "wwwroot\\partylines.js",
               "ToolTip": "C:\\Users\\tj\\Desktop\\Biamp-Tesira-Intercom-Matrix\\Control Server\\wwwroot\\partylines.js",
               "RelativeToolTip": "wwwroot\\partylines.js",
-              "ViewState": "AgIAABcAAAAAAAAAAAAmwD0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAQwIgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-06-21T20:53:28.015Z",
+              "WhenOpened": "2026-06-22T05:00:25.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "partylines.html",
+              "DocumentMoniker": "C:\\Users\\tj\\Desktop\\Biamp-Tesira-Intercom-Matrix\\Control Server\\wwwroot\\partylines.html",
+              "RelativeDocumentMoniker": "wwwroot\\partylines.html",
+              "ToolTip": "C:\\Users\\tj\\Desktop\\Biamp-Tesira-Intercom-Matrix\\Control Server\\wwwroot\\partylines.html",
+              "RelativeToolTip": "wwwroot\\partylines.html",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-06-22T02:48:58.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\tj\\Desktop\\Biamp-Tesira-Intercom-Matrix\\Control Server\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\tj\\Desktop\\Biamp-Tesira-Intercom-Matrix\\Control Server\\wwwroot\\index.html",
+              "RelativeToolTip": "wwwroot\\index.html",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-06-22T04:57:40.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "labels.html",
+              "DocumentMoniker": "C:\\Users\\tj\\Desktop\\Biamp-Tesira-Intercom-Matrix\\Control Server\\wwwroot\\labels.html",
+              "RelativeDocumentMoniker": "wwwroot\\labels.html",
+              "ToolTip": "C:\\Users\\tj\\Desktop\\Biamp-Tesira-Intercom-Matrix\\Control Server\\wwwroot\\labels.html",
+              "RelativeToolTip": "wwwroot\\labels.html",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-06-22T04:53:51.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TesiraService.cs",
+              "DocumentMoniker": "C:\\Users\\tj\\Desktop\\Biamp-Tesira-Intercom-Matrix\\Control Server\\Services\\TesiraService.cs",
+              "RelativeDocumentMoniker": "Services\\TesiraService.cs",
+              "ToolTip": "C:\\Users\\tj\\Desktop\\Biamp-Tesira-Intercom-Matrix\\Control Server\\Services\\TesiraService.cs",
+              "RelativeToolTip": "Services\\TesiraService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA0wB0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T21:21:29.529Z",
               "EditorCaption": ""
             },
             {
@@ -41,7 +143,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\tj\\Desktop\\Biamp-Tesira-Intercom-Matrix\\Control Server\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAH4AAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAqwKEAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-21T20:25:48.688Z",
               "EditorCaption": ""

@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\tj\\Desktop\\Biamp-Tesira-Intercom-Matrix\\Control Server\\wwwroot\\Open Matrix Transparent.png",
+      "PackagePath": "staticwebassets\\Open Matrix Transparent.png"
+    },
+    {
       "Id": "C:\\Users\\tj\\Desktop\\Biamp-Tesira-Intercom-Matrix\\Control Server\\wwwroot\\app.js",
       "PackagePath": "staticwebassets\\app.js"
     },

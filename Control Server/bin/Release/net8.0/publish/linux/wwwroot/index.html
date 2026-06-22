@@ -1,24 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Biamp Matrix Controller</title>
+    <title>Intercom Matrix Cross Points</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-    <div class="container">
-        <nav>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="/" style="padding: 0; border: none;">
+                <img src="Open Matrix Transparent.png" alt="Crosspoints Logo">
+            </a>
+        </div>
+
+        <div class="nav-links">
             <a href="/">Crosspoints</a>
             <a href="/labels.html">Labels</a>
-        </nav>
+            <a href="/partylines.html">PartyLines</a>
+        </div>
+    </nav>
+    <div class="body2">
+        <div id="busyOverlay" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:9999;color:white;font-size:24px;font-weight:bold;align-items:center;justify-content:center;">
+            Applying Party Line Changes...
+        </div>
 
-        <h1>Biamp Matrix Controller</h1>
+        <h1>Cross Points</h1>
+        <div class="header-row">
+            <div class="controls">
 
-        <label>
-            Output Port
-        </label>
+                <div class="left-col">
+                    <label>Port</label>
+                    <div class="row">
+                        <select id="outputSelect"></select>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <select id="outputSelect"></select>
+
+
+     
 
         <table>
             <thead>
@@ -31,9 +53,12 @@
             <tbody id="crosspoints"></tbody>
         </table>
 
+
+
+        <script src="app.js"></script>
     </div>
-
-<script src="app.js"></script>
-
+    </div>
+    </div>
+    </div>
 </body>
 </html>

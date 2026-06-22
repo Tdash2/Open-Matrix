@@ -2,4 +2,7 @@ wwwroot\app.js
 wwwroot\index.html
 wwwroot\labels.html
 wwwroot\labels.js
+wwwroot\Open Matrix Transparent.png
+wwwroot\partylines.html
+wwwroot\partylines.js
 wwwroot\style.css

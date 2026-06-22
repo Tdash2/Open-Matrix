@@ -1,7 +1,7 @@
 let matrix = null;
 
 async function loadMatrix() {
-
+    showBusy("Loading Cross Points");
     const response =
         await fetch('/api/matrix');
 
@@ -9,6 +9,17 @@ async function loadMatrix() {
         await response.json();
 
     populateOutputs();
+}
+
+function showBusy(message = "Applying Party Line Changes...") {
+    const overlay = document.getElementById("busyOverlay");
+
+    overlay.innerText = message;
+    overlay.style.display = "flex";
+}
+
+function hideBusy() {
+    document.getElementById("busyOverlay").style.display = "none";
 }
 
 function populateOutputs() {
@@ -47,7 +58,7 @@ function populateOutputs() {
 }
 
 async function loadOutput(output) {
-
+    showBusy("Loading Cross Points");
     const response =
         await fetch(
             `/api/output/${output}`);
@@ -58,6 +69,7 @@ async function loadOutput(output) {
     renderCrosspoints(
         output,
         crosspoints);
+    hideBusy();
 }
 
 function renderCrosspoints(
@@ -96,7 +108,8 @@ function renderCrosspoints(
         checkbox.addEventListener(
             'change',
             async () =>
-        {
+            {
+                showBusy("Saving Cross Point");
             await fetch(
                 '/api/crosspoint',
                 {
@@ -115,6 +128,7 @@ function renderCrosspoints(
                             checkbox.checked
                     })
                 });
+                hideBusy();
         });
 
         stateCell.appendChild(

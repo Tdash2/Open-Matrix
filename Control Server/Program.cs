@@ -1,7 +1,16 @@
 using BiampMatrixController.Models;
 using BiampMatrixController.Services;
+using System.Net.NetworkInformation;
+using System.Net.Sockets;
+using System.Net;
+using System.Net.NetworkInformation;
+using System.Net.Sockets;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Logging.AddFilter(
+    "Microsoft.AspNetCore.Hosting.Diagnostics",
+    LogLevel.Warning);
+builder.Logging.AddFilter("Microsoft", LogLevel.Warning);
 
 builder.Services.AddSingleton<TesiraService>();
 builder.Services.AddSingleton<PartyLineConfigService>();
@@ -10,6 +19,7 @@ var app = builder.Build();
 
 app.UseDefaultFiles();
 app.UseStaticFiles();
+
 
 var tesira =
     app.Services.GetRequiredService<TesiraService>();
@@ -126,4 +136,31 @@ async (PartyLineRequest req, TesiraService tesira) =>
     return Results.Ok();
 });
 
-app.Run("http://0.0.0.0:5000");
+app.MapPost("/api/partyline/rename", 
+    async (RenameRequest req,TesiraService tesira) =>
+{
+    await tesira.RenamePartyLine(req.PlId, req.Name);
+    return Results.Ok();
+});
+app.MapPost("/api/partyline/delete", 
+    async (DeleteRequest req, TesiraService tesira) =>
+{
+    await tesira.DeletePartyLine(req.PlId);
+    return Results.Ok();
+});
+
+
+foreach (var ni in NetworkInterface.GetAllNetworkInterfaces())
+{
+    if (ni.OperationalStatus != OperationalStatus.Up)
+        continue;
+
+    foreach (var addr in ni.GetIPProperties().UnicastAddresses)
+    {
+        if (addr.Address.AddressFamily == AddressFamily.InterNetwork)
+        {
+            Console.WriteLine($"Starting Web Interface at: http://{addr.Address}:7000");
+        }
+    }
+}
+app.Run("http://0.0.0.0:7000");

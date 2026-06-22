@@ -60,7 +60,6 @@ C:\Users\tj\Desktop\Biamp-Tesira-Intercom-Matrix\Control Server\obj\Debug\net8.0
 C:\Users\tj\Desktop\Biamp-Tesira-Intercom-Matrix\Control Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BiampMatrixController.props
 C:\Users\tj\Desktop\Biamp-Tesira-Intercom-Matrix\Control Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BiampMatrixController.props
 C:\Users\tj\Desktop\Biamp-Tesira-Intercom-Matrix\Control Server\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\tj\Desktop\Biamp-Tesira-Intercom-Matrix\Control Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\tj\Desktop\Biamp-Tesira-Intercom-Matrix\Control Server\obj\Debug\net8.0\BiampMat.E8D89049.Up2Date
 C:\Users\tj\Desktop\Biamp-Tesira-Intercom-Matrix\Control Server\obj\Debug\net8.0\BiampMatrixController.dll
 C:\Users\tj\Desktop\Biamp-Tesira-Intercom-Matrix\Control Server\obj\Debug\net8.0\refint\BiampMatrixController.dll
