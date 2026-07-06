@@ -1,2 +1,6 @@
-# Biamp-Tesira-Intercom-Matrix
-Makes a Biamp Tesira into an production intercom matrix
+# Open Matrix
+This repo is a tool for turning an biamp dsp into a production intecom matrix. This software make a web based user interface that lets you build partylines and manage cross points directly. 
+
+Due to the biamp DSP command prossing time it makes usin open matrix as a full fleged intercom line and RTS matrix impossable. When testing it can take up to 10 seconds to fully establish a partyline after adding a talker or listener on a big matrix. Open matrix is desined to replace a Studio Technologies Model 5422A. The Studio Technologies Model 5422A uses a sepriate channel for each key on the intercom panle. This makes is so you don't have to do re route signials inside the matrix evey time a user wants to talk or listen. 
+
+I have made 2 premade DSP files. One for a Biamp Tesira Server IO with a 1x DAN-1 Card, 1x SVC-2, 1x SOC-4, 1x SEC-4 and 3x DSP-2. This give you a total of 6 IFB, 64x64 dante, 2x2 voip and 4x4 anlog. More can be added to this file. There is a lot more you can add but this is a good starting point. To add more input or outputs just change the size of the matrix mixer then copy the comp gate block on the output. The file for the Biamp TesiraFORTÉ DAN VT has a total of 4 IFB, 32x32 dante, 2x2 voip and 12x8 anlog. This file used 94% of the DSP and 100% of the IO so there is not much more you can add. 
